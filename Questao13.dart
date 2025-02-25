@@ -9,4 +9,5 @@ void main() {
 
   print('A soma dos numero é: $soma');
   print('A media dos numeros é ${soma/numbers.length}');  
+  
 }

@@ -5,4 +5,5 @@ void main() {
     soma += x * x
   }));
   print("A SOMA DO QUADRADO DOS NUMEROS É ${soma}");
+  
 }

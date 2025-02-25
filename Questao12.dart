@@ -6,6 +6,7 @@ void main() {
     if(x > maior) {
       maior = x;
     };
+    
   });
 
   print('O maior numero da lista é $maior');

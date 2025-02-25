@@ -5,6 +5,7 @@ void main() {
     dateConvert = date.subtract(Duration(hours: 12));
     print(dateConvert.hour.toString() + ":" + dateConvert.minute.toString() + "PM");
   } else {
+    
     print(date.hour.toString() + ":" + date.minute.toString() + "AM");
     
   }

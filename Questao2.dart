@@ -2,6 +2,7 @@
 import 'dart:io';
 
 void areaQuadreado(double lado) {
+  
     print('A area do quadrado é: ${lado * lado}');
     print('O dobro de sua área é: ${lado * lado * 2}');
 }

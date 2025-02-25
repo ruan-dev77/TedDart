@@ -6,6 +6,7 @@ void main() {
   
   print('Em qual turno voce eetuda? Manha-M Tarde-T Noite/N');
   String input = stdin.readLineSync().toString();
+  
   String turno = input.toLowerCase();
   if(turno == "t" || turno == 'tarde') {
     print("Voce estuda de tarde");

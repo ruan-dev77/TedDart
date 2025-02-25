@@ -11,6 +11,7 @@ void main() {
   print("A multiplicação dos numeros é ${multiplicacao}");
   print("A soma dos numeros é ${soma}");
   for (int i in numbers) {
+    
     print(i);
   }
 }

@@ -4,6 +4,7 @@ void main() {
 
   for (int i = 0; i < numbers1.length; i++) {
     print(numbers1[i]);
+    
     print(numbers2[i]);
   }
 }

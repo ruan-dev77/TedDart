@@ -1,11 +1,11 @@
 import 'dart:math';
-import 'dart:io';
 
 int rollDice() {
   Random random = Random();
   int dice1 = random.nextInt(6) + 1;
   int dice2 = random.nextInt(6) + 1;
   return dice1 + dice2;
+  
 }
 
 void main() {

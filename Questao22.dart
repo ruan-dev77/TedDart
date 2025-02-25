@@ -22,5 +22,6 @@ void main() {
     diasAtraso = int.parse(stdin.readLineSync().toString());
     pagamentoValor = valorPagamento(valor, diasAtraso);
     print("O valor a ser pago é:  ${pagamentoValor}");
+    
   }
 }

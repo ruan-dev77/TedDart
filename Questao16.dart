@@ -30,6 +30,7 @@ void main() {
   alunos.add(aluno("Jack", 7.0, 7.5, 8.0, 7.0));
 
   for (var aluno in alunos) {
+    
     if (aluno.media! >= 7.0) {
       print('Aluno ${aluno.nome}  aprovado');
     }

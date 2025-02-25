@@ -7,6 +7,7 @@ int inverso(int num) {
     numInverso += numString[i];
   }
   return int.parse(numInverso);
+  
 }
 
 void main() {

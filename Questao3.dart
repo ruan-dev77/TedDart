@@ -1,6 +1,7 @@
 import 'dart:io';
 
 void calculoSalario(double horasTrabalhadas, double valorHora) {
+  
   print('O valor do seu salario é: ${horasTrabalhadas * valorHora}');
 }
 
